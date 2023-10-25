@@ -25,10 +25,10 @@ pipeline {
 
                     if (count.toInteger() == 0) {
                         echo "No images in the repository"
+                    } else {
+                         echo "Try to fix the error"
                     }
-                }   else {
-                        echo "Try to fix the error"
-                }
+                }    
             }
         }
 
